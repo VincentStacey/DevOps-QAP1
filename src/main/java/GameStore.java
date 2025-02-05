@@ -6,9 +6,9 @@ public class GameStore {
 
     public GameStore() {
         games = new ArrayList<>();
-        games.add(new Game("Minecraft", 19.99));
-        games.add(new Game("Elden Ring", 59.99));
-        games.add(new Game("Cyberpunk 2077", 29.99));
+        games.add(new Game("Tom Clancy's Rainbow Six Siege", 49.99));
+        games.add(new Game("Elden Ring", 79.99));
+        games.add(new Game("Call of Duty: Black Ops 6", 79.99));
     }
 
     public List<Game> getAvailableGames() {
